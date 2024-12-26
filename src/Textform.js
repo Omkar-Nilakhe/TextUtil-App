@@ -72,7 +72,8 @@ export default function Textform(props) {
                 <button disabled={Text.length===0} className="btn btn-primary mx-2 my-1" onClick={CapitalizedCase} type="submit">Capitalized Text</button>
                 <button disabled={Text.length===0} className="btn btn-primary mx-2 my-1" onClick={removeExtraspaces} type="submit">Remove space</button>
                 <button disabled={Text.length===0} className="btn btn-primary mx-2 my-1"  type="submit">Remove space2</button>
-
+                <button disabled={Text.length===0} className="btn btn-primary mx-2 my-1"  type="submit">Remove space1</button>
+                
             </div>
 
             <div className="container" style={{color:props.mode==='dark'?'white':'black'}}>
